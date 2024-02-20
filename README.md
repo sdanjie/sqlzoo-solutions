@@ -6,7 +6,7 @@ SQL practices from [SQLZOO Tutorials.](https://sqlzoo.net)
 3. [SELECT from world](#3-select-from-world)
 4. [SELECT from nobel](#4-select-from-nobel)
 
-### 1. SELECT basics
+### 1. [SELECT basics](https://sqlzoo.net/wiki/SELECT_basics) 
 1.1 show the population of Germany.
 ```
 SELECT population 
