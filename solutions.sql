@@ -39,14 +39,18 @@ WHERE name LIKE '%land';
 --2.5 Find the countries that start with C and end with ia
 SELECT name 
 FROM world
-WHERE name LIKE 'C%ia;
-  
+WHERE name LIKE 'C%ia';
+
 --2.6 Find the country that has oo in the name
 SELECT name 
 FROM world
-WHERE name LIKE '%oo%' ;
+WHERE name LIKE '%oo%';
   
---2.7
+--2.7 Find the countries that have three or more a in the name
+SELECT name 
+FROM world
+WHERE name LIKE '%a%a%a%';
+  
 --2.8
 --2.9
 --2.10
