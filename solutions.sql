@@ -95,7 +95,8 @@ SELECT capital, name
 FROM world
 WHERE capital LIKE CONCAT(name,'%') AND capital NOT LIKE name;
 
---2.15 Show the name and the extension where the capital is a proper (non-empty) extension of name of the country.
+--2.15 Show the name and the extension where the capital is a proper (non-empty) extension of name of the country
+--REPLACE(f, s1, s2) returns the string f with all occurances of s1 replaced with s2.
 SELECT name, REPLACE(capital, name, '')
 FROM world
 WHERE capital LIKE CONCAT(name,'%') AND capital NOT LIKE name;
