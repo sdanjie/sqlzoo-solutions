@@ -1,2 +1,2 @@
 # sqlzoo-solutions
-SQL practice from sqlzoo.net
+SQL practices from sqlzoo.net
