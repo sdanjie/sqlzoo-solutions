@@ -1,2 +1,3 @@
 # sqlzoo-solutions
-SQL practices from sqlzoo.net
+SQL practices from [SQLZOO Tutorials.](https://sqlzoo.net)
+## Sections
