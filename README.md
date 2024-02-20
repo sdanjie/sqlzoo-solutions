@@ -26,7 +26,9 @@ SELECT name, area
 FROM world
 WHERE area BETWEEN 200000 AND 250000;
 ```
-### 2. SELECT names
+### 2. [SELECT names](https://sqlzoo.net/wiki/SELECT_names)
+Uses the LIKE operator to check names
+
 ### 3. SELECT from world
 ### 4. SELECT from nobel
 
