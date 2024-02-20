@@ -1,5 +1,5 @@
 --1. SELECT basics
---1.1 Introducing the world talbe of countries.
+--1.1 show the population of Germany.
 SELECT population 
 FROM world 
 WHERE name = 'Germany';
