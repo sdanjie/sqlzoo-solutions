@@ -33,3 +33,7 @@ Uses the LIKE operator to check names
 ### 3. SELECT from world
 ### 4. SELECT from nobel
 
+
+If you are already running mysql, you can execute an SQL script file using the source command or \. command:
+mysql> source file_name
+mysql> \. file_name
